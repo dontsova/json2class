@@ -1,0 +1,50 @@
+{
+	"menu":
+	{
+		"id": 56732373737,
+		"value":
+		{
+			"data":
+			{
+			  "binderItem":
+				[
+					{
+						"value": "New",
+						"handler": "NewHandler()"
+					},
+					{
+						"value": "Open",
+						"handler": "OpenHandler()"
+					},
+					{
+						"value": "Close",
+						"handler": "CloseHandler()"
+					},
+					null
+				]
+			},
+			"time" : "12:33",
+			"count":    
+			1.56+e3,
+			"costs": 
+			[
+				{
+					"name":"object",
+					"value" : 5.3,
+				},
+				{
+					"name":"object",
+					"value" : 33333333333.4-e5,
+				}
+			],
+			"valid":
+			[
+				true,
+				false,
+				true,
+				true,
+				null,
+			],
+		},
+	},
+}

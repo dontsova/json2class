@@ -9,8 +9,6 @@ namespace json2class
 {
     class Program
     {
-
-
         static void Main(string[] args)
         {             
             //Console.WriteLine("Введите путь к файлу: ");
@@ -24,11 +22,9 @@ namespace json2class
                 {
                     // Read the stream to a string, and write the string to the console.
                     String line = sr.ReadToEnd();
+
                     
                     Parser.ParseJson(line);
-
-                    Console.WriteLine(line);
-                    Console.ReadLine();
 
                 }
             }

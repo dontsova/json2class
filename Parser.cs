@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +11,18 @@ namespace json2class
     {
         static public void ParseJson(string source)
         {
-            Stack<char> stk = new Stack<char>();
-            foreach (char carriage in source)
-                if (carriage.ToString() == "{")
-                    {       stk.Push(carriage);
-                            JObjectList.CreateObject()
-                    }
+            JsonCharArray myArr = new JsonCharArray(source);
+
+            Console.WriteLine(source);
+
+            for (int i = 0; i < 652; i++)
+            {
+                Console.WriteLine(" :" + myArr.GetNextChar());
+            }
+            Console.Read();
+
+            
+
         }
 
         static public string FindType(string val)
@@ -55,3 +62,5 @@ namespace json2class
         }
     }
 }
+
+    

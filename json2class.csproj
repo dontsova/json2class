@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JObject.cs" />
+    <Compile Include="JsonCharArray.cs" />
     <Compile Include="ObjectList.cs" />
     <Compile Include="Parser.cs" />
     <Compile Include="Program.cs" />
