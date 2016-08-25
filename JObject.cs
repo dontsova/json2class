@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,24 +9,25 @@ namespace json2class
     class JObject
     {
         //это название класса
-        private string JSONObjectName;
+        public string JSONObjectName;
+
         Dictionary<string, string> myDictionary;
 
 
-        private JObject()
+        public JObject()
         {
             //тут будут хранится пары полей класса  
             myDictionary = new Dictionary<string, string>();
         }
 
-        private JObject(string name)
+        public JObject(string name) // "field" : {}
         {
             JSONObjectName = name;
             //тут будут хранится пары полей класса
             myDictionary = new Dictionary<string, string>();
         }
 
-        public JObject CreateJObject(string name)
+        public static JObject CreateJObject(string name)
         {
 
             JObject Object = new JObject(name);

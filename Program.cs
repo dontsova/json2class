@@ -24,7 +24,8 @@ namespace json2class
                     String line = sr.ReadToEnd();
 
                     
-                    Parser.ParseJson(line);
+                    Parser pr = new Parser(line);
+                    pr.ParseJson();
 
                 }
             }

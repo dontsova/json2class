@@ -1,0 +1,5 @@
+c:\users\слава\documents\visual studio 2015\Projects\json2class\json2class\obj\Debug\json2class.csprojResolveAssemblyReference.cache
+c:\users\слава\documents\visual studio 2015\Projects\json2class\json2class\bin\Debug\json2class.exe
+c:\users\слава\documents\visual studio 2015\Projects\json2class\json2class\bin\Debug\json2class.pdb
+c:\users\слава\documents\visual studio 2015\Projects\json2class\json2class\obj\Debug\json2class.exe
+c:\users\слава\documents\visual studio 2015\Projects\json2class\json2class\obj\Debug\json2class.pdb
